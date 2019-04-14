@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0CF1A3CE-D196-4B2C-858C-C5C4EB4D82A1}</ProjectGuid>
-    <RootNamespace>PASHKOLABS</RootNamespace>
+    <ProjectGuid>{E6AC6ED8-7914-4DB6-AD8F-7D10C829A6C6}</ProjectGuid>
+    <RootNamespace>LAB3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,7 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OneFactorAnalysis.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TwoFactorAnalysos.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OneFactorAnalysis.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="TwoFactorAnalysis.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
