@@ -90,7 +90,7 @@ double estimateSiSquared(std::vector<double> x, std::vector<double> e_values)
 	double countReturnStatement{};
 	for (auto e : x)
 	{
-		countReturnStatement += ( (eSquared / n - 2) * (1 - (1 / n)) - (pow((e - xAvg), 2)) / xDispersion );
+		countReturnStatement += ( (eSquared / n - 2) * (1 - (1.0 / n)) - (pow((e - xAvg), 2)) / xDispersion );
 	}
 
 	return countReturnStatement;
