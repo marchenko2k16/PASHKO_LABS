@@ -24,7 +24,8 @@ void TwoFactorAnalysis::Q2()
 	{
 		float avg = 0;
 		float all = 0;
-		for (int j = 0; j < k; ++j)
+		for (int j = 0; j < k \
+			; ++j)
 		{
 			for (int iter = 0; iter < size; ++iter)
 			{
